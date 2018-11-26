@@ -1,0 +1,23 @@
+{
+  "name": "express-mssql-api",
+  "version": "1.0.0",
+  "description": "ExpressJS + MSSQL + RestfulAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hequnmin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mssql": "^5.0.0-alpha.1",
+    "multer": "^1.4.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mockjs": "^1.0.1-beta3"
+  }
+}

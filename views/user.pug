@@ -1,0 +1,19 @@
+html
+    head
+        title User
+    body
+        form(action = "/user", method="POST")
+        div
+            label(for = "username") User Name:
+            input(name = "username")
+        br
+        div
+            label(for = "email") E-Mail:
+            input(name = "email")
+        br
+        div
+            label(for = "password") Password:
+            input(name = "password")
+        br
+        button(type = "submit") Create new user.
+
